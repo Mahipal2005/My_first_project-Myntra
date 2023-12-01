@@ -1,0 +1,36 @@
+#men{
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns:1fr 3fr;
+    gap: 10px;
+}
+#filter{
+    height: auto;
+    background-color: black;
+
+}
+#product{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    width: 20%;
+}
+#product div{
+    padding: 10px;
+
+    /* height: 400px; */
+}
+#product div {
+    row-gap: 10px;
+
+}
+#product div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#span2{
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}

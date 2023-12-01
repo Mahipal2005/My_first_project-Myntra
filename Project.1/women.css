@@ -1,0 +1,101 @@
+#flat_400_off img{
+    margin: 6% auto;
+    padding-left: 1%;
+    height: 200px;
+    width: 98%;
+}
+#man_women{
+    display: flex;
+}
+#man_women img{
+    margin-top: -7%;
+    width: 100%;
+    height: auto;
+}
+#libas img{
+    height: auto;
+    width: 100%;
+}
+#copun_corner img{
+    height: auto;
+    width: 100%;
+}
+#copun_code{
+    display: flex;
+    justify-content: space-between;
+}
+#copun_code img{
+    height: auto;
+    width: 40%;
+}
+#festive_offers img{
+    height: auto;
+    width: 100%;
+}
+ #men_festive_after{
+display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr ;
+    gap: 10px;
+}
+#men_festive_after img{
+    width: 100%;
+    height: auto;
+}
+#category_specials img{
+    width: 100%;
+    height: auto;
+}
+ #category_after{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+#category_after img{
+        height: auto;
+        width: 100%;
+}  
+
+#category_after .image3{
+    margin-top: 15px;
+    height: 303px;
+    width: 220px;
+}
+#category_after .image4{
+    height: 303px;
+    width: 220px;
+}
+#category_after .images_last{
+    margin-left: 35px;
+}
+
+/* grand global brands */
+#grand_global{
+    text-transform: uppercase;
+      color: #3e4152;
+      letter-spacing: .15em;
+      font-size: 1.8em;
+      margin: 0 0 10px 30px;
+      max-height: 5em;
+      font-weight: 700;
+      font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  }
+  /* grand global brands ka nicha imges */
+  .grand_global_brands{
+    margin: 40px auto;
+    width: 100%;
+    max-width: 100vw;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+  }
+  .items_images img{
+    width: 300px;
+  }
+  .grand_global_brands .sub_grand_global{
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+  }

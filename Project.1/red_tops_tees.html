@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./shirt.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- start navbar -->
+    <div id="menu">
+        <ul>
+                <div>
+                  <a href="/" class="navbar_icon"></a>
+                </div>
+                  
+            <li><a href="./men.html">MEN</a>
+                <ul>
+                    <li><a href="#">Topwear</a>
+                        <ul>
+                            <li><a href="./fuck_cloths_men.html">T-Shirts</a>
+                            </li>
+                            <li><a href="./nautica_cloths_men.html">Casual Shirts</a></li>
+                            <li><a href="./easy_going_styles_men.html">Formal Shirts</a></li>
+                            <li><a href="./active_wear_men.html">Sweatshirts</a></li>
+                            <li><a href="./stylish_fits_men.html">Sweaters</a></li>
+                            <li><a href="./stylish_fits_men.html">Jackets</a></li>
+                            <li><a href="./office_wear.html">Suits</a></li>
+                            <!-- <li><a href="#">Rain Jackets</a></li> -->
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="shirt.html">Indian & Festive Wear</a>
+                    </li>
+                    <li><a href="./active_wear_men.html">Bottomwear</a></li>
+                    <li><a href="./sleepwear_men.html">Innerwear & Sleepwear</a></li>
+                    <!-- <li><a href="#">Plus Size</a></li> -->
+                    <li><a href="./sneakers_footwear_women.html">Footwear</a></li>
+                    <li><a href="gromming.html">Personal Care & Gromming</a></li>
+                    <li><a href="eye_wear.html">Sunglasses</a></li>
+                    <li><a href="watches.html">Watches</a></li>
+                </ul>
+            </li>
+            <li><a href="./women.html">WOMEN</a>
+                <ul>
+                    <li><a href="./ethnic_wear.html">Indian & Fusion Wear</a></li>
+                    <!-- <li><a href="">Belts, Scarves & More</a></li> -->
+                    <li><a href="watches.html">Watches & Wearable</a></li>
+                    <li><a href="western_wear_women.html">Western Wear</a></li>
+                    <li><a href="plus_size_style_women.html">Plus Size</a></li>
+                    <!-- <li><a href="#">Maternity</a></li> -->
+                    <li><a href="eye_wear.html">Suglasses & Frames</a></li>
+                    <li><a href="footwear_women.html">Footwear</a></li>
+                    <li><a href="sports_wear.html">Sports & Active Wear</a></li>
+                    <li><a href="sleepwear.html">Lingerie & Sleepwear</a></li>
+                    <li><a href="beauty_makeup.html">Beauty & personal Care</a></li>
+                    <!-- <li><a href="#">Gadgets</a></li> -->
+                    <li><a href="./jewellery.html">Jewellery</a></li>
+                    <li><a href="./bags.html">Backpacks</a></li>
+                    <li><a href="./women_accessories.html">Handbages,Bags & Wallet</a></li>
+                    <!-- <li><a href="#">Luggages & Trolleys</a></li> -->
+                </ul>
+            </li>
+            <li><a href="./kids_wear.html">KIDS</a>
+                <ul>
+                    <li><a href="#">Boys Clothing</a></li>
+                    <li><a href="#">Girls Clothing</a></li>
+                    <li><a href="#">Footwear</a></li>
+                    <li><a href="#">Toys & Games</a></li>
+                    <li><a href="#">Infants</a></li>
+                    <li><a href="#">Home & Bath</a></li>
+                    <li><a href="#">Personal Care</a></li>
+                    <li><a href="#">Kids Accessories</a></li>
+                    <li><a href="#">Brands</a></li>
+                </ul>
+            </li>
+            <li><a href="./home_decor.html">HOME & LIVING</a>
+                <ul>
+                    <li><a href="#">Bed Linen & Furnishing</a></li>
+                    <li><a href="#">Flooring</a></li>
+                    <li><a href="#">Bath</a></li>
+                    <li><a href="#">Lamps & Lighting</a></li>
+                    <li><a href="#">Home Decor</a></li>
+                    <li><a href="#">Cushions & Cushion Covers</a></li>
+                    <li><a href="#">Curtains</a></li>
+                    <li><a href="#">Home Gift Sets</a></li>
+                    <li><a href="#">Kitchen & Table</a></li>
+                    <li><a href="#">Storage</a></li>
+                    <li><a href="#">Brands</a></li>
+                </ul>
+            </li>
+            <li><a href="beauty_makeup.html">BEAUTY</a>
+                <ul>
+                    <li><a href="#">Makeup</a></li>
+                    <li><a href="#">Skincare, Bath & Body</a></li>
+                    <li><a href="#">Body care</a></li>
+                    <li><a href="#">Masks</a></li>
+                    <li><a href="#">Haircare</a></li>
+                    <li><a href="#">Fragrances</a></li>
+                    <li><a href="#">Appliances</a></li>
+                    <li><a href="#">Men's Grooming</a></li>
+                    <li><a href="#">Beauty Gift & Makeup</a></li>
+                    <li><a href="#">Preminum Beauty</a></li>
+                    <li><a href="#">Wellness & Hygiene</a></li>
+                    <li><a href="#">Top Brands</a></li>
+                </ul>
+            </li>
+            <li><a href="#">STUDIO</a></li>
+            <li><input type="text" placeholder="Search product,brands" style="border-radius: 5px; height: 30px; width: 300px; border: none;"></li>
+            <li>
+              <i id="profile_icon" class="fa-solid fa-user"></i>
+                <a id="profile_anker" href="#">porfile</a>
+                <ul>
+                        <li>
+                            <h3>Welcome</h3>
+                            <p>To access account and manage orders</p>
+                            <!-- <a href="#">LOGIN/SIGNUP</a> -->
+                            <button id="button">LOGIN/SIGNUP</button>
+                        </li>
+                        <li><a href="#">Orders</a></li>
+                        <li><a href="./cart.html">Cart</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Myntra Credit</a></li>
+                        <li><a href="#">Coupons</a></li>
+                        <li><a href="#">Saved Cards</a></li>
+                        <li><a href="#">Saved VPA</a></li>
+                        <li><a href="#">Saved Addresses</a></li>
+                        
+                </ul>
+            </li>
+            <li>
+                <i id="profile_icon" class="fa-solid fa-bag-shopping"></i>
+                <a id="profile_anker" href="./cart.html">Bag</a>
+            </li>
+            <li>
+                <i id="profile_icon" class="fa-solid fa-right-from-bracket"></i>
+                <a id="profile_anker" href="./logout.html">Logout</a>
+            </li>
+        </ul>
+    </div>
+    <!-- end navbar -->
+    <!-- manubar start -->
+    <div id="navbar_button">
+        <a href="./index.html">Home </a><span>/</span>
+        <a href="#">Clothing </a><span>/</span>
+        <a href="#">Myntra Fashion Store</a>
+    </div>
+    <div id="after_navbar_button">
+        <p>FILTERS</p>
+    <div id="men">
+        <div id="filter"><b>FILTERS</b> <br>
+            <input type="radio">
+            <label for="">Men</label><br>
+            <input type="radio">
+            <label for="">Women</label><br>
+            <input type="radio">
+            <label for="">Boys</label><br>
+            <input type="radio">
+            <label for="">Girl</label><br>
+            <input type="radio">
+            <label for="">KIds</label><br>
+            <span> <b>Category</b> <br>
+                <input type="checkbox">
+            <label for="">Shirts</label><br>
+            <input type="checkbox">
+            <label for="">T-Shirts</label><br>
+            <input type="checkbox">
+            <label for="">Suits</label><br>
+            <input type="checkbox">
+            <label for="">Pant</label><br>
+            <input type="checkbox">
+            <label for="">night wear</label><br>
+            </h3>
+        </div>
+        <div id="product">
+        </div>
+    </div>
+</body>
+
+</html>
+<script >
+        red_tops=[
+ {
+  "product_ratingsContainer": "4.1",
+  "product_ratingsCount": "1.3k",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/kibo\/kibo-floral-print-crepe-cinched-waist-top\/21419334\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/21419334\/2023\/1\/5\/c2cbd598-9a7d-4582-81cb-660be71c89ce1672891249303KIBOWomensSquareNeckRedFloralPrintSmokedTop1.jpg",
+  "product_brand": "Kibo",
+  "product_product": "Floral Print Crepe Top",
+  "product_sizeInventoryPresent": "XL",
+  "product_discountedPrice": "Rs. 531",
+  "product_strike": "Rs. 1899",
+  "product_discountPercentage": "(72% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.2",
+  "product_ratingsCount": "3.3k",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tshirts\/dillinger\/dillinger-women-red--white-typography-printed-pure-cotton-oversized-t-shirt\/18771364\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/18771364\/2022\/7\/21\/3dd4dcc8-3ae4-4f67-a00e-235810d3508e1658395210493-DILLINGER-Women-Tshirts-6481658395209874-1.jpg",
+  "product_brand": "DILLINGER",
+  "product_product": "Women Typography Printed Oversized T-shirt",
+  "product_sizeInventoryPresent": "S",
+  "product_discountedPrice": "Rs. 494",
+  "product_strike": "Rs. 1499",
+  "product_discountPercentage": "(67% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.3",
+  "product_ratingsCount": "624",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/dressberry\/dressberry-red-solid-high-neck-ribbed-fitted-top\/13778156\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/13778156\/2022\/5\/5\/4098e9b9-20c1-40b9-b18b-69d40ad6f2a41651735391265-DressBerry-Red-Solid-High-Neck-Ribbed-Fitted-Top-41316517353-1.jpg",
+  "product_brand": "DressBerry",
+  "product_product": "High Neck Ribbed Fitted Top",
+  "product_sizeInventoryPresent": "M",
+  "product_discountedPrice": "Rs. 441",
+  "product_strike": "Rs. 1299",
+  "product_discountPercentage": "(66% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.2",
+  "product_ratingsCount": "1.1k",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/azira\/azira-red-print-ethnic-top\/21916606\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/21916606\/2023\/2\/10\/8c571780-911e-497b-84d3-fdb615cfb1c81675967442959AziraRedPrintTop1.jpg",
+  "product_brand": "Azira",
+  "product_product": "Print Ethnic Top",
+  "product_sizeInventoryPresent": "XS",
+  "product_discountedPrice": "Rs. 599",
+  "product_strike": "Rs. 999",
+  "product_discountPercentage": "(40% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.1",
+  "product_ratingsCount": "1.9k",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/vishudh\/vishudh-women-red-printed-a-line-top\/13000002\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/productimage\/2020\/11\/19\/5ce647c4-3075-422f-a3a7-4b8b2ea05f791605752961129-1.jpg",
+  "product_brand": "Vishudh",
+  "product_product": "Printed A-Line Top",
+  "product_sizeInventoryPresent": "M",
+  "product_discountedPrice": "Rs. 384",
+  "product_strike": "Rs. 1099",
+  "product_discountPercentage": "(65% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.4",
+  "product_ratingsCount": "3.8k",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/sassafras\/sassafras-red-pure-cotton-tank-crop-top\/13842988\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/13842988\/2023\/9\/1\/1dc96daf-4898-47f4-a460-9cc11a6125e51693549130175SassafrasRedPureCottonTankCropTop1.jpg",
+  "product_brand": "SASSAFRAS",
+  "product_product": "Tank Crop Top",
+  "product_sizeInventoryPresent": "XS",
+  "product_discountedPrice": "Rs. 395",
+  "product_strike": "Rs. 899",
+  "product_discountPercentage": "(56% OFF)"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/krelin\/krelin-lace-bralette-crop-top\/25504522\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/25504522\/2023\/10\/16\/ce353cb2-959d-4d5d-b418-4ab44768eb501697471901115Bra1.jpg",
+  "product_brand": "Krelin",
+  "product_product": "Lace Bralette Crop Top",
+  "product_sizeInventoryPresent": "Onesize",
+  "product_discountedPrice": "Rs. 449",
+  "product_strike": "Rs. 1299",
+  "product_discountPercentage": "(Rs. 850 OFF)"
+ },
+ {
+  "product_ratingsContainer": "4",
+  "product_ratingsCount": "124",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/max\/max-red-self-designed-striped-fitted-top\/18064872\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/18064872\/2023\/9\/11\/df478f0f-7de5-4687-aa00-2ec82823d6c21694408320847maxRedSelfDesignedStripedFittedTop1.jpg",
+  "product_brand": "max",
+  "product_product": "Solid Fitted Top",
+  "product_sizeInventoryPresent": "XS",
+  "product_discountedPrice": "Rs. 448",
+  "product_strike": "Rs. 449",
+  "product_discountPercentage": "(Rs. 1 OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.4",
+  "product_ratingsCount": "3.5k",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/athena\/athena-red-knotted-top-with-puff-sleeves\/12031394\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/productimage\/2020\/7\/3\/4d21d9d9-5e6a-4c3b-aa72-f1bd676ab2561593728377355-1.jpg",
+  "product_brand": "Athena",
+  "product_product": "Puff Sleeved Knotted Top",
+  "product_sizeInventoryPresent": "M",
+  "product_discountedPrice": "Rs. 402",
+  "product_strike": "Rs. 1299",
+  "product_discountPercentage": "(69% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.3",
+  "product_ratingsCount": "582",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/janasya\/janasya-red--rust-orange-floral-printed-pure-cotton-top\/13619468\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/13619468\/2021\/2\/26\/d45a3880-ded7-4569-a19b-63e31418fbbb1614338490617-Janasya-Women-Tops-7481614338488572-1.jpg",
+  "product_brand": "Janasya",
+  "product_product": "Floral Printed Cotton Top",
+  "product_sizeInventoryPresent": "XS",
+  "product_discountedPrice": "Rs. 743",
+  "product_strike": "Rs. 1199",
+  "product_discountPercentage": "(38% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.1",
+  "product_ratingsCount": "943",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tshirts\/dillinger\/dillinger-women-red--beige-typography-printed-pure-cotton-loose-t-shirt\/17692896\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/17692896\/2022\/4\/12\/0014db74-447c-4588-aaae-957037bf78e31649759620479-DILLINGER-Women-Tshirts-9101649759620095-1.jpg",
+  "product_brand": "DILLINGER",
+  "product_product": "Women Typography Printed Loose T-shirt",
+  "product_sizeInventoryPresent": "XL",
+  "product_discountedPrice": "Rs. 389",
+  "product_strike": "Rs. 1299",
+  "product_discountPercentage": "(70% OFF)"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/stylecast+x+hersheinbox\/stylecast-x-hersheinbox-cotton-graphic-print-crop-top\/24816374\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/24816374\/2023\/10\/11\/ac54783b-1d01-48d1-ae0b-798b9f040bfa1697002000781-Stylecast-X-Hersheinbox-Cotton-Graphic-Print-Crop-Top-708169-1.jpg",
+  "product_brand": "Stylecast X Hersheinbox",
+  "product_product": "Cotton Printed Crop Top",
+  "product_sizeInventoryPresent": "S"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/nobarr\/nobarr-ribbed-cold-shoulder-cotton-fitted-top\/25370476\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/25370476\/2023\/10\/7\/b9bbc02a-45e3-4f28-8638-57a08af5de411696623257199NoBarrRedCold-ShoulderCottonCropTop1.jpg",
+  "product_brand": "NoBarr",
+  "product_product": "Ribbed Cotton Fitted Top",
+  "product_sizeInventoryPresent": "XXS",
+  "product_discountedPrice": "Rs. 299",
+  "product_strike": "Rs. 1999",
+  "product_discountPercentage": "(85% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.4",
+  "product_ratingsCount": "773",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tshirts\/bewakoof\/bewakoof-women-sarcastic-one-boyfriend-relaxed-fit-t-shirt\/19341492\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/19341492\/2022\/8\/1\/3153450d-c052-4659-96d4-3f003c205e8e1659367756828BewakoofRedPrintedTshirts1.jpg",
+  "product_brand": "Bewakoof",
+  "product_product": "Women Relaxed Fit T-shirt",
+  "product_sizeInventoryPresent": "XS",
+  "product_discountedPrice": "Rs. 489",
+  "product_strike": "Rs. 1099",
+  "product_discountPercentage": "(Rs. 610 OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.2",
+  "product_ratingsCount": "518",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/all+about+you\/all-about-you-women-red-solid-top\/13205166\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/13205166\/2022\/6\/1\/ab5ce852-c4ad-47bf-8ab0-88bffed15f831654079307422-all-about-you-Women-Red-Solid-Top-3921654079306911-1.jpg",
+  "product_brand": "all about you",
+  "product_product": "Solid Top",
+  "product_sizeInventoryPresent": "XL",
+  "product_discountedPrice": "Rs. 335",
+  "product_strike": "Rs. 1199",
+  "product_discountPercentage": "(72% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.3",
+  "product_ratingsCount": "186",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/berrylush\/berrylush-women-red-solid-top\/11177124\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/productimage\/2019\/12\/15\/b8db2ce1-b580-465d-afc4-1879eacfb0651576371400222-1.jpg",
+  "product_brand": "Berrylush",
+  "product_product": "Women Solid Top",
+  "product_sizeInventoryPresent": "M",
+  "product_discountedPrice": "Rs. 419",
+  "product_strike": "Rs. 1199",
+  "product_discountPercentage": "(65% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.3",
+  "product_ratingsCount": "46",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tshirts\/dillinger\/dillinger-women-red-solid-cotton-oversized-t-shirt\/20853540\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/20853540\/2022\/12\/6\/72f02c85-cae7-4520-97a5-5fef88e613aa1670308970050-DILLINGER-Women-Tshirts-571670308969463-1.jpg",
+  "product_brand": "DILLINGER",
+  "product_product": "Women Cotton Oversized T-shirt",
+  "product_sizeInventoryPresent": "M",
+  "product_discountedPrice": "Rs. 431",
+  "product_strike": "Rs. 799",
+  "product_discountPercentage": "(46% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4",
+  "product_ratingsCount": "1.6k",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tshirts\/roadster\/roadster-women-red-pure-cotton-solid-round-neck-pure-cotton-t-shirt\/11296122\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/11296122\/2021\/2\/11\/bea46c4a-fcb3-4c0f-bd61-81a4f1bedf211613020306158-Roadster-Red-Drop-Shoulder-Sleeves-T-shirt-6161613020304709-1.jpg",
+  "product_brand": "Roadster",
+  "product_product": "Pure Cotton Round Neck Pure Cotton T-shirt",
+  "product_sizeInventoryPresent": "XL",
+  "product_discountedPrice": "Rs. 359",
+  "product_strike": "Rs. 699",
+  "product_discountPercentage": "(Rs. 340 OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.6",
+  "product_ratingsCount": "19",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/roadster\/the-roadster-life-co-square-neck-ribbed-top\/24231588\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/24231588\/2023\/7\/31\/bca4adb4-2dfa-4611-b59c-0ff87a2565dc1690792365502-Roadster-Women-Tops-9121690792365114-1.jpg",
+  "product_brand": "Roadster",
+  "product_product": "Square Neck Ribbed Top",
+  "product_sizeInventoryPresent": "L",
+  "product_discountedPrice": "Rs. 467",
+  "product_strike": "Rs. 1299",
+  "product_discountPercentage": "(64% OFF)"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/stylecast+x+hersheinbox\/stylecast-x-hersheinbox-graphic-print-cotton-tank-crop-top\/24719472\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/24719472\/2023\/9\/27\/2a08ecf5-7fd3-46e6-9cbc-28a7744692c11695788389775StylecastXHersheinboxTropicalPrintSatinA-LineMiniDressTshirt1.jpg",
+  "product_brand": "Stylecast X Hersheinbox",
+  "product_product": "Print Tank Top",
+  "product_sizeInventoryPresent": "XL"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/essque\/essque-cowl-neck-satin-top\/25082862\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/25082862\/2023\/9\/20\/c85a7281-2371-4cad-b533-56566e0be1b41695216829541ESSQUERedSatinTop1.jpg",
+  "product_brand": "ESSQUE",
+  "product_product": "Cowl Neck Satin Top",
+  "product_sizeInventoryPresent": "L",
+  "product_discountedPrice": "Rs. 447",
+  "product_strike": "Rs. 1490",
+  "product_discountPercentage": "(70% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.1",
+  "product_ratingsCount": "2.7k",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/berrylush\/berrylush-women-gorgeous-red-floral-cropped-top\/16426480\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/16426480\/2023\/11\/2\/9629c55f-3cc2-4d28-bf60-141f2db0795b1698919580523BerrylushWomenGorgeousRedFloralCroppedTop1.jpg",
+  "product_brand": "Berrylush",
+  "product_product": "Floral Cropped Top",
+  "product_sizeInventoryPresent": "XL",
+  "product_discountedPrice": "Rs. 404",
+  "product_strike": "Rs. 1499",
+  "product_discountPercentage": "(73% OFF)"
+ },
+ {
+  "product_ratingsContainer": "3.9",
+  "product_ratingsCount": "244",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/berrylush\/berrylush-charming-red-solid-super-cropped-top\/20243854\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/20243854\/2022\/10\/19\/60bd2976-a89f-416d-838c-fad2b792b1ba1666178076686-Berrylush-Women-Red-Satin-Lace-Up-Open-Back-Cami-Top-6916661-1.jpg",
+  "product_brand": "Berrylush",
+  "product_product": "Solid Super Cropped Top",
+  "product_sizeInventoryPresent": "L",
+  "product_discountedPrice": "Rs. 419",
+  "product_strike": "Rs. 999",
+  "product_discountPercentage": "(58% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4",
+  "product_ratingsCount": "21",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tshirts\/roadster\/the-roadster-life-co-short-sleeves-round-neck-t-shirt\/24896094\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/24896094\/2023\/9\/25\/fa823d7e-91fd-48ff-91fd-efe9f0eab1621695644969783-Roadster-Women-Tshirts-881695644969376-1.jpg",
+  "product_brand": "Roadster",
+  "product_product": "Round Neck T-shirt",
+  "product_sizeInventoryPresent": "L",
+  "product_discountedPrice": "Rs. 219",
+  "product_strike": "Rs. 999",
+  "product_discountPercentage": "(Rs. 780 OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.3",
+  "product_ratingsCount": "189",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tshirts\/hrx+by+hrithik+roshan\/hrx-by-hrithik-roshan-typography-printed-training-t-shirt\/21831416\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/21831416\/2023\/2\/9\/5f21b647-c84c-4bd3-b6d1-fb12f74bc20b1675926905442-HRX-by-Hrithik-Roshan-Women-Tshirts-7651675926904643-1.jpg",
+  "product_brand": "HRX by Hrithik Roshan",
+  "product_product": "Women Typography Printed T-shirt",
+  "product_sizeInventoryPresent": "M",
+  "product_discountedPrice": "Rs. 375",
+  "product_strike": "Rs. 799",
+  "product_discountPercentage": "(53% OFF)"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/fabflee\/fabflee-shirt-collar-ribbed-top\/24823172\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/24823172\/2023\/9\/5\/e422aabf-34a3-4e7b-9a77-f51ab0cded4f1693929763613FabfleeRedTop1.jpg",
+  "product_brand": "Fabflee",
+  "product_product": "Shirt Collar Ribbed Top",
+  "product_sizeInventoryPresent": "M",
+  "product_discountedPrice": "Rs. 433",
+  "product_strike": "Rs. 1399",
+  "product_discountPercentage": "(69% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4",
+  "product_ratingsCount": "72",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/aahwan\/aahwan-women-red-solid-fitted-crop-top\/20048018\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/20048018\/2022\/9\/17\/1fd04c68-06cc-4964-a1f1-9fba832ed1f71663407336138AAHWANRedCropTop1.jpg",
+  "product_brand": "AAHWAN",
+  "product_product": "Solid Fitted Crop Top",
+  "product_sizeInventoryPresent": "S",
+  "product_discountedPrice": "Rs. 499",
+  "product_strike": "Rs. 999",
+  "product_discountPercentage": "(50% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.1",
+  "product_ratingsCount": "33",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tshirts\/fame+forever+by+lifestyle\/fame-forever-by-lifestyle-typography-printed-cotton-t-shirt\/24234318\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/24234318\/2023\/7\/28\/c7a753d8-4d0d-468e-a02d-7ec4d5ab46741690483750730FameForeverbyLifestyleRedPrintCottonTop1.jpg",
+  "product_brand": "Fame Forever by Lifestyle",
+  "product_product": "Printed Cotton T-shirt",
+  "product_sizeInventoryPresent": "S"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/style+blush\/style-blush-puff-sleeve-shirt-style-top\/25917274\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/25917274\/2023\/11\/17\/190751b4-e3f0-45b0-8ea5-2eaac6f1a8011700214150137STYLEBLUSHRedPuffSleeveCrepeShirtStyleTop1.jpg",
+  "product_brand": "STYLE BLUSH",
+  "product_product": "Puff Sleeve Shirt Style Top",
+  "product_sizeInventoryPresent": "S",
+  "product_discountedPrice": "Rs. 590",
+  "product_strike": "Rs. 1597",
+  "product_discountPercentage": "(63% OFF)"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/sightbomb\/sightbomb-tie-up-neck-cotton-fitted-crop-top\/25495898\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/25495898\/2023\/10\/16\/31aa0736-6be1-48a2-af71-a2cfd725c3501697463415721SIGHTBOMBRedCottonCropTop1.jpg",
+  "product_brand": "SIGHTBOMB",
+  "product_product": "Tie Up Neck Fitted Crop Top",
+  "product_sizeInventoryPresent": "M"
+ },
+ {
+  "product_ratingsContainer": "3.6",
+  "product_ratingsCount": "1.3k",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/bhama+couture\/bhama-couture-red-striped-shirt-style-pure-cotton-top\/7324364\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/7324364\/2018\/9\/15\/77718d97-a7ac-4d51-ae26-f6f721b3b27b1536993792565-Bhama-Couture-Women-Top-7221536993792386-1.jpg",
+  "product_brand": "Bhama Couture",
+  "product_product": "Striped Shirt Style Pure Cotton Top",
+  "product_sizeInventoryPresent": "XL",
+  "product_discountedPrice": "Rs. 539",
+  "product_strike": "Rs. 1799",
+  "product_discountPercentage": "(70% OFF)"
+ },
+ {
+  "product_ratingsContainer": "3.6",
+  "product_ratingsCount": "53",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/london+belly\/london-belly-women-red-solid-tank-crop-top\/20142922\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/20142922\/2022\/9\/23\/b988d6a6-24e5-4ec5-b1dc-7f6112da2e511663924232384Tops1.jpg",
+  "product_brand": "LONDON BELLY",
+  "product_product": "Solid Tank Crop Top",
+  "product_sizeInventoryPresent": "S"
+ },
+ {
+  "product_ratingsContainer": "4.2",
+  "product_ratingsCount": "388",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/berrylush\/berrylush---red-solid-twist--knot-top\/19612262\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/19612262\/2023\/11\/2\/79ddfaa5-b79a-495b-8985-732a532cb5a31698922035473BerrylushRedSolidTwistKnotTop1.jpg",
+  "product_brand": "Berrylush",
+  "product_product": "Solid Twist & Knot Top",
+  "product_sizeInventoryPresent": "M",
+  "product_discountedPrice": "Rs. 404",
+  "product_strike": "Rs. 1499",
+  "product_discountPercentage": "(73% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.3",
+  "product_ratingsCount": "456",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/berrylush\/berrylush-charming-red-floral-asymmetry-top\/19091780\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/19091780\/2023\/11\/2\/0444df2d-642c-4821-a70d-8335e6886a741698922064785BerrylushCharmingRedFloralAsymmetryTop1.jpg",
+  "product_brand": "Berrylush",
+  "product_product": "Floral Asymmetry Top",
+  "product_sizeInventoryPresent": "M",
+  "product_discountedPrice": "Rs. 492",
+  "product_strike": "Rs. 1699",
+  "product_discountPercentage": "(71% OFF)"
+ },
+ {
+  "product_ratingsContainer": "3.5",
+  "product_ratingsCount": "13",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/dream+beauty+fashion\/dream-beauty-fashion-ribbed-regular-top\/24589420\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/24589420\/2023\/8\/22\/f716e8cf-cef3-42da-9171-8423ad3b835f1692709770624DreamBeautyFashionRedTop1.jpg",
+  "product_brand": "Dream Beauty Fashion",
+  "product_product": "Ribbed Regular Top",
+  "product_sizeInventoryPresent": "XS"
+ },
+ {
+  "product_ratingsContainer": "3.9",
+  "product_ratingsCount": "123",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/h%26m\/hm-women-ribbed-cotton-vest-top\/23486274\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/23486274\/2023\/5\/31\/597e972c-fad1-450b-b6a9-86fd74ce1a6f1685525565954Ribbedcottonvesttop1.jpg",
+  "product_brand": "H&M",
+  "product_product": "Ribbed Cotton Vest Top",
+  "product_sizeInventoryPresent": "XS",
+  "product_discountedPrice": "Rs. 594",
+  "product_strike": "Rs. 699",
+  "product_discountPercentage": "(15% OFF)"
+ },
+ {
+  "product_ratingsContainer": "3.8",
+  "product_ratingsCount": "12",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tshirts\/roadster\/roadster-typography-printed-drop-shoulder-sleeves-oversized-longline-t-shirt\/24623306\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/24623306\/2023\/8\/30\/6cbd8adc-edd8-4374-92da-a2f48b16d7b11693398106773-Roadster-Women-Tshirts-1871693398106384-1.jpg",
+  "product_brand": "Roadster",
+  "product_product": "Oversized Longline T-shirt",
+  "product_sizeInventoryPresent": "S",
+  "product_discountedPrice": "Rs. 229",
+  "product_strike": "Rs. 1399",
+  "product_discountPercentage": "(Rs. 1170 OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.1",
+  "product_ratingsCount": "20",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/iqraar\/iqraar-woman-bobbin-elastic-crop-top\/20481338\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/20481338\/2022\/10\/20\/c8642651-4f38-4490-95cb-4d215e6295a61666266997735Tops1.jpg",
+  "product_brand": "IQRAAR",
+  "product_product": "Woman Bobbin Elastic Crop Top",
+  "product_sizeInventoryPresent": "XS",
+  "product_discountedPrice": "Rs. 439",
+  "product_strike": "Rs. 2199",
+  "product_discountPercentage": "(80% OFF)"
+ },
+ {
+  "product_ratingsContainer": "3.9",
+  "product_ratingsCount": "393",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/tokyo+talkies\/tokyo-talkies-red-solid-crop-top\/17822294\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/17822294\/2023\/9\/8\/46443f09-1080-4f4b-9f98-caed0f61529a1694163822293-Tokyo-Talkies-Red-Solid-Crop-Top-3741694163821918-1.jpg",
+  "product_brand": "Tokyo Talkies",
+  "product_product": "Solid Top",
+  "product_sizeInventoryPresent": "S",
+  "product_discountedPrice": "Rs. 144",
+  "product_strike": "Rs. 499",
+  "product_discountPercentage": "(71% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.4",
+  "product_ratingsCount": "64",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tshirts\/bewakoof\/bewakoof-women-red-printed-pure-cotton-relaxed-fit-t-shirt\/19341484\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/19341484\/2022\/8\/1\/47bc9f2c-e361-4360-8c0a-b761e5b838e91659366560124BewakoofRedPrintedTshirts1.jpg",
+  "product_brand": "Bewakoof",
+  "product_product": "Printed Relaxed Fit T-shirt",
+  "product_sizeInventoryPresent": "S",
+  "product_discountedPrice": "Rs. 439",
+  "product_strike": "Rs. 999",
+  "product_discountPercentage": "(Rs. 560 OFF)"
+ },
+ {
+  "product_ratingsContainer": "3.9",
+  "product_ratingsCount": "307",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/azira\/azira-red--navy-blue-ethnic-printed-gathered-a-line-top\/17416516\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/17416516\/2022\/3\/7\/d57ef696-3512-418f-9edc-fadbbaf1f6671646647413272AziraRedPrintTie-UpNeckTop1.jpg",
+  "product_brand": "Azira",
+  "product_product": "Printed Gathered A-line Top",
+  "product_sizeInventoryPresent": "XS",
+  "product_discountedPrice": "Rs. 649",
+  "product_strike": "Rs. 1299",
+  "product_discountPercentage": "(50% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.9",
+  "product_ratingsCount": "20",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tshirts\/dillinger\/dillinger-women-graphic-printed-loose-t-shirt\/23271992\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/23271992\/2023\/6\/13\/74316713-b376-42ef-bb58-c97348af9c201686635957417-DILLINGER-Women-Tshirts-1201686635957040-1.jpg",
+  "product_brand": "DILLINGER",
+  "product_product": "Women Printed Loose T-shirt",
+  "product_sizeInventoryPresent": "M",
+  "product_discountedPrice": "Rs. 495",
+  "product_strike": "Rs. 799",
+  "product_discountPercentage": "(38% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.6",
+  "product_ratingsCount": "20",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tshirts\/roadster\/roadster-women-graphic-printed-drop-shoulder-sleeves-t-shirt\/24478320\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/24478320\/2023\/8\/24\/b81ee635-a8e3-4e0b-a0c1-c16e56d271631692852625510-Roadster-Women-Tshirts-8001692852625112-1.jpg",
+  "product_brand": "Roadster",
+  "product_product": "Women Printed T-shirt",
+  "product_sizeInventoryPresent": "M",
+  "product_discountedPrice": "Rs. 769",
+  "product_strike": "Rs. 1399",
+  "product_discountPercentage": "(45% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.7",
+  "product_ratingsCount": "10",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tshirts\/funday+fashion\/funday-fashion-drop-shoulder-sleeves-oversized-loose-cotton-t-shirt\/23554218\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/23554218\/2023\/6\/7\/f54d46c7-b91c-4af3-a73e-389df5db008e1686152223154FundayFashionWomenRedRawEdgeLooseT-shirt1.jpg",
+  "product_brand": "Funday Fashion",
+  "product_product": "Drop-Shoulder Sleeves T-Shirt",
+  "product_sizeInventoryPresent": "XL",
+  "product_discountedPrice": "Rs. 494",
+  "product_strike": "Rs. 1499",
+  "product_discountPercentage": "(67% OFF)"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/here%26now\/herenow-long-sleeves-cotton-top\/24988980\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/24988980\/2023\/9\/28\/65cfed53-d614-4abd-9df8-6ff8dde530ce1695878711199-HERENOW-Women-Tops-2951695878710809-1.jpg",
+  "product_brand": "HERE&NOW",
+  "product_product": "Cotton Top",
+  "product_sizeInventoryPresent": "S",
+  "product_discountedPrice": "Rs. 499",
+  "product_strike": "Rs. 1399",
+  "product_discountPercentage": "(Rs. 900 OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.3",
+  "product_ratingsCount": "12",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/dressberry\/dressberry-red--white-vertical-stripes-roll-up-sleeves-top\/24880926\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/24880926\/2023\/9\/9\/68c28383-ff33-45d5-b4b2-79002cdc6a391694260759092DressBerryMulticolouredStripedCrepeStyledBackTop1.jpg",
+  "product_brand": "DressBerry",
+  "product_product": "Stripes Roll Up Sleeves Top",
+  "product_sizeInventoryPresent": "S",
+  "product_discountedPrice": "Rs. 407",
+  "product_strike": "Rs. 1199",
+  "product_discountPercentage": "(66% OFF)"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/baesd\/baesd-sweetheart-neck-ruched-fitted-top\/25213456\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/25213456\/2023\/9\/28\/93162157-780d-4332-ab6b-4e3aacaf43711695890070644BAESDRedSweetheartNeckSheenTop1.jpg",
+  "product_brand": "BAESD",
+  "product_product": "Sweetheart Neck Sheen Top",
+  "product_sizeInventoryPresent": "S",
+  "product_discountedPrice": "Rs. 399",
+  "product_strike": "Rs. 1599",
+  "product_discountPercentage": "(75% OFF)"
+ },
+ {
+  "product_ratingsContainer": "3.9",
+  "product_ratingsCount": "49",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/tshirts\/the+dry+state\/the-dry-state-red-typography-printed-round-neck-cotton-t-shirt\/23042082\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/23042082\/2023\/5\/6\/5c4e74c1-ba9e-4c8b-b6bb-06aed900ff8b1683353702657TheDryStateWomenRedTypographyPrintedAppliqueLooseT-shirt1.jpg",
+  "product_brand": "The Dry State",
+  "product_product": "Printed Cotton T-shirt",
+  "product_sizeInventoryPresent": "XL",
+  "product_discountedPrice": "Rs. 458",
+  "product_strike": "Rs. 1699",
+  "product_discountPercentage": "(73% OFF)"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/baesd\/baesd-tie-up-neck-cuffed-sleeves-top\/26053624\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/26053624\/2023\/11\/25\/599c62ff-1f75-40c2-95ee-18ca47c0815d1700909552805BAESDRedTie-UpNeckCrepeTop1.jpg",
+  "product_brand": "BAESD",
+  "product_product": "Tie-Up Neck Cuffed Sleeves Top",
+  "product_sizeInventoryPresent": "XL",
+  "product_discountedPrice": "Rs. 549",
+  "product_strike": "Rs. 1475",
+  "product_discountPercentage": "(Rs. 926 OFF)"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/tops\/roadster\/roadster-red-abstract-printed-tube-crop-top\/25518304\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/25518304\/2023\/10\/17\/c2c91e72-8767-4128-b38e-e0e09b65a7a11697544340629RoadsterPrintedTubeCropTop1.jpg",
+  "product_brand": "Roadster",
+  "product_product": "Abstract Printed Tube Crop Top",
+  "product_sizeInventoryPresent": "S",
+  "product_discountedPrice": "Rs. 467",
+  "product_strike": "Rs. 1299",
+  "product_discountPercentage": "(64% OFF)"
+ }
+]
+let product = document.getElementById('product');
+   let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+   function allproduct(allproduct_deatil) {
+       allproduct_deatil.forEach(obj => {
+           let div = document.createElement('div');
+           let image = document.createElement('img')
+           image.src = obj.img_responsive_src
+           image.style.height = "300px"
+           let h3 = document.createElement('h3');
+           h3.innerText = obj.product_brand;
+           let pTag = document.createElement('p')
+           pTag.innerText = obj.product_product
+           let span1 = document.createElement('span')
+           span1.innerText = obj.product_discountedPrice
+           let span2 = document.createElement('span')
+           span2.innerText = ` ${obj.product_strike}`
+           span2.setAttribute('id', 'span2')
+           let span3 = document.createElement('span')
+           span3.innerText = obj.product_discountPercentage
+           span3.style.color = "rgb(255,194,165)"
+           span3.setAttribute('id', 'span3')
+
+           // Creating 'Add to Cart' button
+           button_div = document.createElement('div')
+           let addToCartBtn = document.createElement('button');
+           addToCartBtn.innerText = 'Add to Cart';
+           addToCartBtn.addEventListener('click', function () {
+               // console.log(`Product added to cart: ${obj.product_product}`);
+               cart.push(obj);
+               // Store the updated cart array in local storage
+               localStorage.setItem('cart', JSON.stringify(cart));
+               alert('Product added to cart!');
+           });
+
+           // Creating 'Buy Now' button
+           let buyNowBtn = document.createElement('button');
+           buyNowBtn.innerText = 'Buy Now';
+           buyNowBtn.addEventListener('click', function () {
+                alert('This function in not avilable')
+           });
+
+
+           // Appending all elements to the div
+           button_div.style.margin = "10px"
+           button_div.append(addToCartBtn, buyNowBtn)
+           div.append(image, h3, pTag, span1, span2, span3, button_div);
+           product.appendChild(div);
+       })
+   }
+   
+allproduct(red_tops)
+</script>

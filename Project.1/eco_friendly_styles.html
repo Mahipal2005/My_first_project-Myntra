@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./shirt.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- start navbar -->
+    <div id="menu">
+        <ul>
+                <div>
+                  <a href="/" class="navbar_icon"></a>
+                </div>
+                  
+            <li><a href="./men.html">MEN</a>
+                <ul>
+                    <li><a href="#">Topwear</a>
+                        <ul>
+                            <li><a href="./fuck_cloths_men.html">T-Shirts</a>
+                            </li>
+                            <li><a href="./nautica_cloths_men.html">Casual Shirts</a></li>
+                            <li><a href="./easy_going_styles_men.html">Formal Shirts</a></li>
+                            <li><a href="./active_wear_men.html">Sweatshirts</a></li>
+                            <li><a href="./stylish_fits_men.html">Sweaters</a></li>
+                            <li><a href="./stylish_fits_men.html">Jackets</a></li>
+                            <li><a href="./office_wear.html">Suits</a></li>
+                            <!-- <li><a href="#">Rain Jackets</a></li> -->
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="shirt.html">Indian & Festive Wear</a>
+                    </li>
+                    <li><a href="./active_wear_men.html">Bottomwear</a></li>
+                    <li><a href="./sleepwear_men.html">Innerwear & Sleepwear</a></li>
+                    <!-- <li><a href="#">Plus Size</a></li> -->
+                    <li><a href="./sneakers_footwear_women.html">Footwear</a></li>
+                    <li><a href="gromming.html">Personal Care & Gromming</a></li>
+                    <li><a href="eye_wear.html">Sunglasses</a></li>
+                    <li><a href="watches.html">Watches</a></li>
+                </ul>
+            </li>
+            <li><a href="./women.html">WOMEN</a>
+                <ul>
+                    <li><a href="./ethnic_wear.html">Indian & Fusion Wear</a></li>
+                    <!-- <li><a href="">Belts, Scarves & More</a></li> -->
+                    <li><a href="watches.html">Watches & Wearable</a></li>
+                    <li><a href="western_wear_women.html">Western Wear</a></li>
+                    <li><a href="plus_size_style_women.html">Plus Size</a></li>
+                    <!-- <li><a href="#">Maternity</a></li> -->
+                    <li><a href="eye_wear.html">Suglasses & Frames</a></li>
+                    <li><a href="footwear_women.html">Footwear</a></li>
+                    <li><a href="sports_wear.html">Sports & Active Wear</a></li>
+                    <li><a href="sleepwear.html">Lingerie & Sleepwear</a></li>
+                    <li><a href="beauty_makeup.html">Beauty & personal Care</a></li>
+                    <!-- <li><a href="#">Gadgets</a></li> -->
+                    <li><a href="./jewellery.html">Jewellery</a></li>
+                    <li><a href="./bags.html">Backpacks</a></li>
+                    <li><a href="./women_accessories.html">Handbages,Bags & Wallet</a></li>
+                    <!-- <li><a href="#">Luggages & Trolleys</a></li> -->
+                </ul>
+            </li>
+            <li><a href="./kids_wear.html">KIDS</a>
+                <ul>
+                    <li><a href="#">Boys Clothing</a></li>
+                    <li><a href="#">Girls Clothing</a></li>
+                    <li><a href="#">Footwear</a></li>
+                    <li><a href="#">Toys & Games</a></li>
+                    <li><a href="#">Infants</a></li>
+                    <li><a href="#">Home & Bath</a></li>
+                    <li><a href="#">Personal Care</a></li>
+                    <li><a href="#">Kids Accessories</a></li>
+                    <li><a href="#">Brands</a></li>
+                </ul>
+            </li>
+            <li><a href="./home_decor.html">HOME & LIVING</a>
+                <ul>
+                    <li><a href="#">Bed Linen & Furnishing</a></li>
+                    <li><a href="#">Flooring</a></li>
+                    <li><a href="#">Bath</a></li>
+                    <li><a href="#">Lamps & Lighting</a></li>
+                    <li><a href="#">Home Decor</a></li>
+                    <li><a href="#">Cushions & Cushion Covers</a></li>
+                    <li><a href="#">Curtains</a></li>
+                    <li><a href="#">Home Gift Sets</a></li>
+                    <li><a href="#">Kitchen & Table</a></li>
+                    <li><a href="#">Storage</a></li>
+                    <li><a href="#">Brands</a></li>
+                </ul>
+            </li>
+            <li><a href="beauty_makeup.html">BEAUTY</a>
+                <ul>
+                    <li><a href="#">Makeup</a></li>
+                    <li><a href="#">Skincare, Bath & Body</a></li>
+                    <li><a href="#">Body care</a></li>
+                    <li><a href="#">Masks</a></li>
+                    <li><a href="#">Haircare</a></li>
+                    <li><a href="#">Fragrances</a></li>
+                    <li><a href="#">Appliances</a></li>
+                    <li><a href="#">Men's Grooming</a></li>
+                    <li><a href="#">Beauty Gift & Makeup</a></li>
+                    <li><a href="#">Preminum Beauty</a></li>
+                    <li><a href="#">Wellness & Hygiene</a></li>
+                    <li><a href="#">Top Brands</a></li>
+                </ul>
+            </li>
+            <li><a href="#">STUDIO</a></li>
+            <li><input type="text" placeholder="Search product,brands" style="border-radius: 5px; height: 30px; width: 300px; border: none;"></li>
+            <li>
+              <i id="profile_icon" class="fa-solid fa-user"></i>
+                <a id="profile_anker" href="#">porfile</a>
+                <ul>
+                        <li>
+                            <h3>Welcome</h3>
+                            <p>To access account and manage orders</p>
+                            <!-- <a href="#">LOGIN/SIGNUP</a> -->
+                            <button id="button">LOGIN/SIGNUP</button>
+                        </li>
+                        <li><a href="#">Orders</a></li>
+                        <li><a href="./cart.html">Cart</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Myntra Credit</a></li>
+                        <li><a href="#">Coupons</a></li>
+                        <li><a href="#">Saved Cards</a></li>
+                        <li><a href="#">Saved VPA</a></li>
+                        <li><a href="#">Saved Addresses</a></li>
+                        
+                </ul>
+            </li>
+            <li>
+                <i id="profile_icon" class="fa-solid fa-bag-shopping"></i>
+                <a id="profile_anker" href="./cart.html">Bag</a>
+            </li>
+            <li>
+                <i id="profile_icon" class="fa-solid fa-right-from-bracket"></i>
+                <a id="profile_anker" href="./logout.html">Logout</a>
+            </li>
+        </ul>
+    </div>
+    <!-- end navbar -->
+    <!-- manubar start -->
+    <div id="navbar_button">
+        <a href="./index.html">Home </a><span>/</span>
+        <a href="#">Clothing </a><span>/</span>
+        <a href="#">Myntra Fashion Store</a>
+    </div>
+    <div id="after_navbar_button">
+        <p>FILTERS</p>
+    <div id="men">
+        <div id="filter"><b>FILTERS</b> <br>
+            <input type="radio">
+            <label for="">Men</label><br>
+            <input type="radio">
+            <label for="">Women</label><br>
+            <input type="radio">
+            <label for="">Boys</label><br>
+            <input type="radio">
+            <label for="">Girl</label><br>
+            <input type="radio">
+            <label for="">KIds</label><br>
+            <span> <b>Category</b> <br>
+                <input type="checkbox">
+            <label for="">Shirts</label><br>
+            <input type="checkbox">
+            <label for="">T-Shirts</label><br>
+            <input type="checkbox">
+            <label for="">Suits</label><br>
+            <input type="checkbox">
+            <label for="">Pant</label><br>
+            <input type="checkbox">
+            <label for="">night wear</label><br>
+            </h3>
+        </div>
+        <div id="product">
+        </div>
+    </div>
+</body>
+
+</html>
+<script >
+    eco_friendly_styles=[
+ {
+  "product_ratingsContainer": "4",
+  "product_ratingsCount": "33",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/dresses\/libas\/libas-floral-ethnic-midi-dress\/22117144\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/22117144\/2023\/3\/7\/75fc12a4-6b38-4f90-a39b-76f8897eca771678183891476-Grey-silk-blend-floral-printed-with-front-slit-one-sided-poc-1.jpg",
+  "product_brand": "Libas",
+  "product_product": "Floral Midi Dress",
+  "product_sizeInventoryPresent": "XL",
+  "product_discountedPrice": "Rs. 725",
+  "product_strike": "Rs. 2199",
+  "product_discountPercentage": "(67% OFF)"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/dresses\/amiras+indian+ethnic+wear\/amiras-indian-ethnic-wear-women-white-ethnic-printed-tie-up-neck-cotton-dress\/20781238\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/20781238\/2022\/11\/16\/075954e3-080d-40a1-b186-ed86f9f3fb261668611861096Dresses1.jpg",
+  "product_brand": "AMIRAS INDIAN ETHNIC WEAR",
+  "product_product": "Women Printed Cotton Dress",
+  "product_sizeInventoryPresent": "S",
+  "product_discountedPrice": "Rs. 863",
+  "product_strike": "Rs. 2699",
+  "product_discountPercentage": "(68% OFF)"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/dresses\/cottinfab\/cottinfab-ethnic-maxi-dress\/21765648\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/21765648\/2023\/2\/6\/f9e437f0-95dd-4980-a93f-35cdb074a30d1675661378376-Cottinfab-Women-Dresses-9341675661377815-1.jpg",
+  "product_brand": "Cottinfab",
+  "product_product": "Maxi Dress",
+  "product_sizeInventoryPresent": "L",
+  "product_discountedPrice": "Rs. 1187",
+  "product_strike": "Rs. 3599",
+  "product_discountPercentage": "(67% OFF)",
+  "xcelerator-plpXceleratorInfoTag": "Only Few Left!"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/dresses\/cottinfab\/cottinfab-ethnic-maxi-dress\/21765660\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/21765660\/2023\/2\/6\/ae592046-beae-41d1-b800-3727faca4b9b1675662947469-Cottinfab-Women-Dresses-5121675662946912-1.jpg",
+  "product_brand": "Cottinfab",
+  "product_product": "Maxi Dress",
+  "product_sizeInventoryPresent": "M",
+  "product_discountedPrice": "Rs. 1747",
+  "product_strike": "Rs. 4599",
+  "product_discountPercentage": "(62% OFF)"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/dresses\/inddus\/inddus-pink-ethnic-midi-dress\/21529522\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/21529522\/2023\/1\/24\/c35d0ade-f627-4cd1-b7a0-398a46d1285d1674556629096-Women-Checks-Printed-Lace-up-Dress-771674556628507-1.jpg",
+  "product_brand": "Inddus",
+  "product_product": "Midi Dress",
+  "product_sizeInventoryPresent": "S",
+  "product_discountedPrice": "Rs. 1456",
+  "product_strike": "Rs. 4699",
+  "product_discountPercentage": "(69% OFF)"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/dresses\/cottinfab\/cottinfab-ethnic-maxi-dress\/21765654\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/21765654\/2023\/2\/6\/19d7b261-785b-4243-a979-6244a1c3b6701675660036898-Cottinfab-Women-Dresses-1271675660036456-1.jpg",
+  "product_brand": "Cottinfab",
+  "product_product": "Maxi Dress",
+  "product_sizeInventoryPresent": "M",
+  "product_discountedPrice": "Rs. 1187",
+  "product_strike": "Rs. 3599",
+  "product_discountPercentage": "(67% OFF)"
+ },
+ {
+  "product_ratingsContainer": "3",
+  "product_ratingsCount": "1",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/dresses\/sassafras\/sassafras-women-coral-pink-printed-a-line-dress\/8487981\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/8487981\/2019\/1\/21\/c0ec8d49-ecd4-496e-93ec-bbe03551d9841548061409269-SASSAFRAS-Women-Coral-Printed-A-Line-Dress-5371548061407506-1.jpg",
+  "product_brand": "SASSAFRAS",
+  "product_product": "Women Printed A-Line Dress",
+  "product_sizeInventoryPresent": "XS",
+  "product_discountedPrice": "Rs. 593",
+  "product_strike": "Rs. 1799",
+  "product_discountPercentage": "(67% OFF)"
+ },
+ {
+  "product_ratingsContainer": "2.6",
+  "product_ratingsCount": "10",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/dresses\/libas\/libas-green-a-line-maxi-dress\/14501934\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/productimage\/2021\/6\/9\/6626da1b-f0d4-4bc0-a13a-27aa16b4c0021623258158121-1.jpg",
+  "product_brand": "Libas",
+  "product_product": "A-Line Maxi Dress",
+  "product_sizeInventoryPresent": "M",
+  "xcelerator-plpXceleratorInfoTag": "Only Few Left!",
+  "product_price": "Rs. 2199"
+ },
+ {
+  "product_ratingsContainer": "4",
+  "product_ratingsCount": "4",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/dresses\/idalia\/idalia-women-navy-blue-printed-a-line-dress-with-shrug\/6742765\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/6742765\/2018\/6\/14\/07a33bb8-d63d-429a-98be-7e3fef1568cd1528978361909-na-4151528978361645-1.jpg",
+  "product_brand": "Idalia",
+  "product_product": "Women Printed A-Line Dress",
+  "product_sizeInventoryPresent": "S",
+  "product_discountedPrice": "Rs. 1224",
+  "product_strike": "Rs. 3499",
+  "product_discountPercentage": "(65% OFF)",
+  "xcelerator-plpXceleratorInfoTag": "Only Few Left!"
+ },
+ {
+  "product_base_href": "https:\/\/www.myntra.com\/dresses\/idalia\/idalia-women-multicoloured-printed-a-line-dress-with-shrug\/6742708\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/6742708\/2018\/6\/14\/01bbd663-1adf-4c95-b82a-cc6159a72f371528978045595-na-6621528978045385-1.jpg",
+  "product_brand": "Idalia",
+  "product_product": "Women Printed A-Line Dress",
+  "product_sizeInventoryPresent": "S",
+  "product_discountedPrice": "Rs. 1224",
+  "product_strike": "Rs. 3499",
+  "product_discountPercentage": "(65% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4.2",
+  "product_ratingsCount": "22",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/dresses\/global+desi\/global-desi-women-orange-printed-maxi-dress\/9013939\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/9013939\/2019\/5\/8\/c464cfcd-91d5-4e01-ac2b-7b509201fba91557297322966-orange-printed-maxi-dress-9941557297322065-1.jpg",
+  "product_brand": "Global Desi",
+  "product_product": "Women Printed Maxi Dress",
+  "product_sizeInventoryPresent": "XS",
+  "product_discountedPrice": "Rs. 624",
+  "product_strike": "Rs. 2499",
+  "product_discountPercentage": "(75% OFF)"
+ },
+ {
+  "product_ratingsContainer": "2.5",
+  "product_ratingsCount": "4",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/dresses\/global+desi\/global-desi-women-navy-blue-printed-shirt-dress\/8791417\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/8791417\/2019\/2\/27\/0d854e1b-f053-49d3-b83e-e383e33adf4b1551244333675-Global-Desi-Women-Dresses-7941551244332227-1.jpg",
+  "product_brand": "Global Desi",
+  "product_product": "Women Printed Shirt Dress",
+  "product_sizeInventoryPresent": "XS",
+  "product_discountedPrice": "Rs. 574",
+  "product_strike": "Rs. 2299",
+  "product_discountPercentage": "(75% OFF)",
+  "xcelerator-plpXceleratorInfoTag": "Only Few Left!"
+ },
+ {
+  "product_ratingsContainer": "4",
+  "product_ratingsCount": "42",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/dresses\/w\/w-green-ethnic-maxi-dress\/17167906\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/17167906\/2022\/2\/16\/d100398e-52e0-4929-9076-e279ad6cfa501644996203940WGreenMaxiDress1.jpg",
+  "product_brand": "W",
+  "product_product": "Maxi Dress",
+  "product_sizeInventoryPresent": "S",
+  "product_discountedPrice": "Rs. 1709",
+  "product_strike": "Rs. 3799",
+  "product_discountPercentage": "(55% OFF)"
+ },
+ {
+  "product_ratingsContainer": "4",
+  "product_ratingsCount": "94",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/dresses\/aks\/aks-women-maroon--golden-printed-maxi-dress\/7585058\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/7585058\/2018\/10\/16\/df7ad109-f7bc-4b33-9480-10d9a0cc69351539684492949-AKS-Women-Maroon-Printed-Maxi-Dress-651539684492744-1.jpg",
+  "product_brand": "AKS",
+  "product_product": "Women Printed Maxi Dress",
+  "product_sizeInventoryPresent": "L",
+  "product_price": "Rs. 1499"
+ },
+ {
+  "product_ratingsContainer": "3.6",
+  "product_ratingsCount": "156",
+  "product_separator": "|",
+  "product_base_href": "https:\/\/www.myntra.com\/dresses\/gerua\/gerua-women-orange--golden-block-print-maxi-dress\/10520956\/buy",
+  "img_responsive_src": "https:\/\/assets.myntassets.com\/dpr_2,q_60,w_210,c_limit,fl_progressive\/assets\/images\/10520956\/2019\/9\/3\/8565da1a-ad72-435b-850f-d70483cec8a61567496855230-GERUA-Women-Printed-Orange-Fit-and-Flare-Dress-3001567496854-1.jpg",
+  "product_brand": "GERUA",
+  "product_product": "Women Block Print Maxi Dress",
+  "product_sizeInventoryPresent": "M",
+  "product_price": "Rs. 1699"
+ }
+]
+
+let product = document.getElementById('product');
+let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+function allproduct(allproduct_deatil) {
+   allproduct_deatil.forEach(obj => {
+       let div = document.createElement('div');
+       let image = document.createElement('img')
+       image.src = obj.img_responsive_src
+       image.style.height = "300px"
+       let h3 = document.createElement('h3');
+       h3.innerText = obj.product_brand;
+       let pTag = document.createElement('p')
+       pTag.innerText = obj.product_product
+       let span1 = document.createElement('span')
+       span1.innerText = obj.product_discountedPrice
+       let span2 = document.createElement('span')
+       span2.innerText = ` ${obj.product_strike}`
+       span2.setAttribute('id', 'span2')
+       let span3 = document.createElement('span')
+       span3.innerText = obj.product_discountPercentage
+       span3.style.color = "rgb(255,194,165)"
+       span3.setAttribute('id', 'span3')
+
+       // Creating 'Add to Cart' button
+       button_div = document.createElement('div')
+       let addToCartBtn = document.createElement('button');
+       addToCartBtn.innerText = 'Add to Cart';
+       addToCartBtn.addEventListener('click', function () {
+           // console.log(`Product added to cart: ${obj.product_product}`);
+           cart.push(obj);
+           // Store the updated cart array in local storage
+           localStorage.setItem('cart', JSON.stringify(cart));
+           alert('Product added to cart!');
+       });
+
+       // Creating 'Buy Now' button
+       let buyNowBtn = document.createElement('button');
+       buyNowBtn.innerText = 'Buy Now';
+       buyNowBtn.addEventListener('click', function () {
+            alert('This function in not avilable')
+       });
+
+
+       // Appending all elements to the div
+       button_div.style.margin = "10px"
+       button_div.append(addToCartBtn, buyNowBtn)
+       div.append(image, h3, pTag, span1, span2, span3, button_div);
+       product.appendChild(div);
+   })
+}
+allproduct(eco_friendly_styles)
+</script>

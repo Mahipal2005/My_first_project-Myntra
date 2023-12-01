@@ -1,0 +1,52 @@
+#navbar_button {
+    margin: 15px;
+}
+
+#navbar_button a {
+    text-decoration: none;
+    color: black;
+}
+
+#after_navbar_button {
+    font-weight: 700;
+    margin-left: 15px;
+}
+#men{
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns:1fr 3fr;
+    gap: 10px;
+}
+#filter{
+    /* width: 250px; */
+    height: auto;
+    background-color: rgb(240,240,240);
+    margin: 10px;
+    padding: 10px;
+
+}
+#product{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    background-color: rgb(254,254,254);
+}
+#product div{
+    padding: 10px;
+
+    /* height: 400px; */
+}
+#product div {
+    row-gap: 10px;
+
+}
+#product div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#span2{
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}

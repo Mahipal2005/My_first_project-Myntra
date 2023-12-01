@@ -1,0 +1,133 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  /* Remove default margin */
+}
+#menu{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+#menu>ul {
+  /* background: midnightblue; */
+  /* background:white; */
+  display: flex;
+  /* Use flexbox for layout */
+  justify-content: space-around;
+  /* Space around items */
+  padding: 0;
+  /* Remove default padding */
+  margin-top: 30px; /* Added margin-top */
+  height: 75px; /* Set navbar height */
+  align-items: center; /* Align items vertically */
+}
+
+#menu ul {
+  list-style: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* Use flexbox for submenu layout */
+}
+
+#menu ul a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 32px;
+  padding: 0 15px;
+  display: block;
+}
+
+#menu ul li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+/* #menu ul li:hover {
+  background: lightgreen;
+} */
+
+/* #menu ul ul {
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  top: 100%;
+  left: 0;
+  display: none;
+} */
+/* CSS for dropdown menu */
+#menu ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff; /* Background color of dropdown */
+  padding: 10px;
+  z-index: 1000;
+}
+
+#menu ul li:hover > ul {
+  display: block;
+}
+
+#menu ul ul li {
+  width: 200px;
+  border-left: 3px solid #2c3e50;
+}
+
+#menu ul ul li:hover {
+  border-left: 3px solid #2c3e50;
+}
+
+#menu ul ul ul {
+  top: -10px;
+  left: 100%;
+}
+
+#menu ul li:hover>ul {
+  display: block;
+}
+
+/* Margin adjustments */
+#menu ul li:nth-last-child(-n+3) a {
+  padding: 0 10px;
+}
+
+/* Icon placement */
+#menu ul li:nth-last-child(-n+3) div {
+  margin-bottom: 5px; /* Adjust vertical spacing */
+}
+#menu ul li:nth-last-child(-n+3) i {
+  display: block;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+#menu ul li:nth-last-child(-n+3) a {
+  display: block;
+  text-align: center; /* Center align text */
+}
+#profile_icon{
+  margin-top: 7px;
+  margin-left: 25px;
+}
+#profile_anker{
+  margin-top: -10px;
+}
+.navbar_icon{
+display: inline-block;
+width: 24px;
+height: 36px;
+background-position: -462px 0;
+background-image: url("./mintra_image.png");
+background-size: 1404px 105px;
+margin-top: -8px;
+}
+li input{
+border-radius: 5px;
+height: 30px; 
+border: none;
+width: 300px;
+background: rgb(245,245,246);
+}
