@@ -131,3 +131,17 @@ border: none;
 width: 300px;
 background: rgb(245,245,246);
 }
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  body {
+    width: 700px;
+    /* Other styles for this screen size */
+  }
+}
+
+/* Media query for screen size between 400px and 699px */
+@media screen and (min-width: 400px) and (max-width: 699px) {
+  body {
+    width: 400px;
+    /* Other styles for this screen size */
+  }
+}
