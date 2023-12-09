@@ -59,9 +59,15 @@
 .slider .dots li.active{
     width: 30px;
 }
-@media screen and (max-width: 768px){
+
+@media all and (min-width: 400px) and (max-width: 768px){
     .slider{
+        margin: 40px auto;
+        width: 100%;
         height: 400px;
+        position: relative;
+        overflow: hidden;
     }
 }
 /* slider image ka nicha */
+
